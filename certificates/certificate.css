@@ -1,0 +1,9 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cardStyle{
+    width: 18rem;
+    margin: 3vmax;
+}

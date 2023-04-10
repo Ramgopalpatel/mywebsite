@@ -1,0 +1,50 @@
+body{
+  user-select: none;
+}
+main {
+  padding: 50px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #382f2f;
+  height: 90vh;
+  width: 100%;
+  color: white;
+}
+.upperVerticalLine {
+  height: 50px;
+  border-right: .5vmax solid;
+}
+.bTech {
+  display: inline-block;
+  padding-left: 32px;
+  width: 60px;
+}
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: .5vmax solid;
+  border-radius: 50%;
+}
+.middleLine {
+  margin-top: -5px;
+  height: 150px;
+  border-right: .5vmax solid;
+}
+.lowerVerticalLine{
+  margin-top: -2px;
+  height: 120px;
+  border-right: .5vmax solid;
+}
+.bTechContent{
+    font-size: 1vmax;
+    display: inline-block;
+    float:left;
+
+}
+h1 pre{
+  font-size: 1.5vmax;
+}

@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* header css */
+
+.navcolor {
+  background: linear-gradient(to right, rgb(136, 0, 255), brown);
+  color: white;
+}
+
+.logo {
+  color: #ff0000;
+  font-size: 3vmax;
+}
+.nav-link {
+  color: white !important;
+}
+
+/* main content css */
+
+.intro {
+  padding-top: 50px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+  clip-path: polygon(0 0, 100% 0, 100% 93%, 50% 100%, 0 92%);
+}
+.introContent {
+  padding: 3vmax;
+  padding-bottom: 5vmax;
+  width: 40vmax;
+}
+#reachOut{
+  text-decoration: none;
+}
+.introImage {
+  width: 40vmax;
+  height: 35vmax;
+  display: flex;
+  justify-content: center;
+}
+.introImage div {
+  background: url("../images/rg2.png");
+  background-size: cover;
+  border: 5px solid rgb(245, 3, 160);
+  width: 30vmax;
+  height: 30vmax;
+  border-radius: 50%;
+}
+
+/* locations css*/
+.locations {
+  margin: 5rem auto;
+  text-align: center;
+  height: auto;
+  width: 100%;
+}
+.locations div {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.current {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+}
+.permanent {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+iframe {
+  height: 30rem;
+  margin-left: 4vmax;
+  border-radius: 10px;
+}
+
+/* footer css */
+footer {
+  padding: 20px ;
+  width: 100%;
+  background: linear-gradient(to right, rgb(136, 0, 255), brown);
+  color: white;
+}
+#contactHeading{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.contactLink {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contactLink div{
+  width: 40vmax;
+  padding-left: 15vmax;
+  
+}
+.contactLink p {
+  margin: 10px 0;
+  font-weight: bolder;
+}
+.contactLink p a {
+  text-decoration: none;
+  color: white;
+}
+.mailIcon {
+  font-size: larger;
+  margin-right: 20px;
+}
+.phoneIcon {
+  margin-right: 20px;
+  font-size: larger;
+  color: #0000ff;
+}
+.gitIcon {
+  margin-right: 20px;
+  font-size: larger;
+  color: black;
+}
+.linkedinIcon {
+  margin-right: 20px;
+  font-size: larger;
+  color: #0000ff;
+}
+.whatsappIcon{
+  margin-right: 20px;
+  font-size: larger;
+color: #04f182;
+}
+.telegramIcon{
+  margin-right: 20px;
+  color: #0000ff;
+  font-size: larger;
+}

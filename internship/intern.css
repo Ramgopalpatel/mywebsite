@@ -1,0 +1,28 @@
+body {
+  user-select: none;
+}
+main{
+    background-color: black;
+    color: white;
+}
+.textCenter{
+    display: flex;
+    justify-content: center;
+}
+#internshipDetails {
+  
+  padding: 20px;
+  font-size: 4vmax;
+  font-weight: bolder;
+  font-family: "Lobster";
+  background: -webkit-linear-gradient(#e40303, #7b91da, RED);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.internship {
+  width: 90%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

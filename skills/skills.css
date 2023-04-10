@@ -1,0 +1,25 @@
+body{
+    user-select: none;
+}
+
+main{
+    padding: 20px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    height: 80vh;
+}
+
+.frontEnd,.backEnd,.dataBase{
+    display: inline-block;
+}
+h2{
+    display: inline-block;
+    color:green
+}
+.arrowColor{
+    color: #ff0000;
+}

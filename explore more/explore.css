@@ -45,7 +45,7 @@
   justify-content: center;
 }
 .introImage div {
-  background: url("../images/rg2.png");
+  background: url("../images/rg.gif");
   background-size: cover;
   border: 5px solid rgb(245, 3, 160);
   width: 30vmax;
